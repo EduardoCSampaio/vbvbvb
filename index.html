@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VB Servidores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body onload="startScroll()">
+    <header class="menu-superior">
+        <div class="titulo">VB Servidores</div>
+        <nav class="menu-links">
+            <a href="#home">Home</a>
+            <a href="#quem-somos">Quem Somos</a>
+            <a href="#produtos-servicos">Serviços</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="https://wa.link/6hn11b">Entrar em Contato</a>
+        </nav>
+    </header>
+
+    <section class="seguranca-confiabilidade" id="seguranca-confiabilidade">
+        <div class="conteudo">
+            <h1>Segurança e Confiabilidade</h1>
+            <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="btn-contato">Entrar em Contato</button>
+            <div class="itens">
+                <div class="item">
+                    <img src="./assets/images/tel.svg" alt="Ícone 1">
+                    <div class="texto">
+                        <strong>(15) 997647174</strong>
+                        <p>(15) 997647174</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/clock.svg" alt="Ícone 2">
+                    <div class="texto">
+                        <strong>De segunda a sexta</strong>
+                        <p>Das 8:20 até as 18:00, de sexta e até as 17:30</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/point.svg" alt="Ícone 3">
+                    <div class="texto">
+                        <strong>RUA JOÃO BENEDITO DE ALMEIDA, 215 1º ANDAR
+                            JARDIM PIAZZA DI ROMA II
+                            </strong>
+                        <p>Ver mapa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrossel-noticias">
+        <div class="conteudo-carrossel">
+            <p>
+                1 ANO DE GARANTIA EM TODOS OS PRODUTOS JUNTO COM <strong>SUPORTE</strong>
+            </p>
+        </div>
+    </section>
+
+    <section class="quem-somos" id="quem-somos">
+        <div class="retangulo-pequeno">
+            <p>Quem<br>Somos</p>
+        </div>
+        <div class="retangulo-grande">
+            <p>Na VBServidores, oferecemos venda e locação de servidores e equipamentos de hardware de alta performance. Com produtos selecionados pela qualidade e design elegante, garantimos soluções confiáveis para sua infraestrutura de TI. Conte com nosso suporte especializado para elevar o desempenho do seu negócio.</p>
+        </div>
+    </section>
+    
+    <section class="divisor-secao"></section>
+
+    <section class="marcas" style="padding: 1% 1%;">
+        <h2>Marcas que Trabalhamos</h2>
+        <div class="carrossel-container">
+            <button class="carrossel-btn esquerda">❮</button>
+            <div class="carrossel">
+                <div class="carrossel-item">
+                    <div class="imagem-wrapper">
+                        <img src="./assets/images/logos/cisco.jpg" alt="Marca 1">
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <p><strong>Cisco</strong></p>
+                </div>
+                <div class="carrossel-item">
+                    <div class="imagem-wrapper">
+                        <img src="./assets/images/logos/dell.jpg" alt="Marca 2">
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <p><strong>Dell</strong></p>
+                </div>
+                <div class="carrossel-item">
+                    <div class="imagem-wrapper">
+                        <img src="./assets/images/logos/hp.jpg" alt="Marca 1">
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <p><strong>HP</strong></p>
+                </div>
+                <div class="carrossel-item">
+                    <div class="imagem-wrapper">
+                        <img src="./assets/images/logos/ibm.svg" alt="Marca 2">
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <p><strong>IBM</strong></p>
+                </div>
+                <div class="carrossel-item">
+                    <div class="imagem-wrapper">
+                        <img src="./assets/images/logos/kingston.svg" alt="Marca 1">
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <p><strong>Kingston</strong></p>
+                </div>
+                
+                <!-- Adicione mais itens conforme necessário -->
+            </div>
+            <button class="carrossel-btn direita">❯</button>
+        </div>
+    </section>
+
+    <section class="divisor-secao">
+        <p>PRODUTOS DISPONÍVEIS PARA COMPRA E LOCAÇÃO</p>
+    </section>
+    
+    <!-- SETOR DE PRODUTOS -->
+    <div class="produtos">
+        <section class="marcas" id="produtos-servicos" style="padding: 1% 1%;">     
+            <h1>Produtos Disponiveis</h1>
+            
+            <h2>Servidores</h2>
+            <div class="carrossel-container" style="margin-bottom: 2%;">
+                <button class="carrossel-btn esquerda esquerda2">❮</button>
+                <div class="carrossel carrossel2">
+                    <div class="carrossel-item">
+                        <div class="imagem-wrapper">
+                            <img src="./assets/images/produtos/R730.JPG" alt="Marca 1">
+                        </div>
+                        <P>DELL R730</P>
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <div class="carrossel-item">
+                        <div class="imagem-wrapper">
+                            <img src="./assets/images/produtos/R710.jpg" alt="Marca 2">
+                        </div>
+                        <P>DELL R710</P>
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <div class="carrossel-item">
+                        <div class="imagem-wrapper">
+                            <img src="./assets/images/produtos/R640.JPG" alt="Marca 1">
+                        </div>
+                        <P>DELL R640</P>
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <div class="carrossel-item">
+                        <div class="imagem-wrapper">
+                            <img src="./assets/images/produtos/R630.jpg" alt="Marca 2">
+                        </div>
+                        <P>DELL R630</P>
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <div class="carrossel-item">
+                        <div class="imagem-wrapper">
+                            <img src="./assets/images/produtos/DL380G9.jpg" alt="Marca 1">
+                        </div>
+                        <P>DL380 G9</P>
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <div class="carrossel-item">
+                        <div class="imagem-wrapper">
+                            <img src="./assets/images/produtos/DL380G8.jpg" alt="Marca 1">
+                        </div>
+                        <P>DL380 G8</P>
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <div class="carrossel-item">
+                        <div class="imagem-wrapper">
+                            <img src="./assets/images/produtos/T320.jpg" alt="Marca 1">
+                        </div>
+                        <P>T320</P>
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    
+                    <!-- Adicione mais itens conforme necessário -->
+                </div>
+                <button class="carrossel-btn direita direita2">></button>
+            </div>
+        </section>
+        
+        <section class="marcas" id="produtos-servicos" style="margin-bottom: 2%;">     
+            <h2>Memórias</h2>
+            <div class="carrossel-container">
+                <button class="carrossel-btn esquerda esquerda3">❮</button>
+                <div class="carrossel carrossel3">
+                    <div class="carrossel-item">
+                        <div class="imagem-wrapper">
+                            <img src="./assets/images/produtos/MEMORIA16GBDDR31600.jpg" alt="Marca 1">
+                        </div>
+                        <P>MEMORIA 16GB DDR3 1600</P>
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <div class="carrossel-item">
+                        <div class="imagem-wrapper">
+                            <img src="./assets/images/produtos/MEMORIA16GBDDR43200.jpg" alt="Marca 2">
+                        </div>
+                        <P>MEMORIA 16GB DDR4 3200</P>
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    
+                    <!-- Adicione mais itens conforme necessário -->
+                </div>
+                <button class="carrossel-btn direita direita3">></button>
+            </div>
+        </section>
+    
+        <section class="marcas" id="produtos-servicos" style="margin-bottom: 5%;">     
+            <h2>Armazenamento</h2>
+            <div class="carrossel-container">
+                <button class="carrossel-btn esquerda esquerda4">❮</button>
+                <div class="carrossel carrossel4">
+                    <div class="carrossel-item">
+                        <div class="imagem-wrapper">
+                            <img src="./assets/images/produtos/HDSAS900GB.JPG" alt="Marca 1">
+                        </div>
+                        <P>HD SAS 900GB</P>
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    <div class="carrossel-item">
+                        <div class="imagem-wrapper">
+                            <img src="./assets/images/produtos/SSDSAS192TB.JPG" alt="Marca 2">
+                        </div>
+                        <P>SSD SAS 1.92TB</P>
+                        <button onclick="redirectToNewTab('https://wa.link/6hn11b')" href="https://wa.link/6hn11b" class="contato-btn">ENTRE EM CONTATO</button>
+                    </div>
+                    
+                    <!-- Adicione mais itens conforme necessário -->
+                </div>
+                <button class="carrossel-btn direita direita4">></button>
+            </div>
+        </section>
+    </div>
+    
+
+    <section class="divisor-secao"></section>
+
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-347dd9d7-609a-423b-9cf3-20e819e78afc" data-elfsight-app-lazy></div>
+
+    <section class="quem-somos">
+        <div class="retangulo-pequeno">
+            <p>Nossa<br>Garantia</p>
+        </div>
+        <div class="retangulo-grande">
+            <p>A garantia estendida de VB SERVIDORES é um plano adicional de cobertura que complementa a garantia padrão do fabricante. Ela oferece proteção extra para os servidores da sua empresa, garantindo a manutenção e a reparação dos equipamentos por um período maior de tempo.</p>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            
+            <div class="rodape-links">
+                <a href="termos.html">Termos e Condições</a>
+                <a href="garantia.html">Garantia Estendida</a>
+            </div>
+
+            
+
+            <div class="rodape-centro">
+                <h2>VB SERVIDORES</h2>
+            </div>
+
+            <div class="rodape-redes">
+                <a href="https://facebook.com" target="_blank" class="rede-social facebook"><img src="./assets/images/facebook.svg" alt="Facebook"></a>
+                <a href="https://instagram.com/VBServidores" target="_blank" class="rede-social instagram"><img src="./assets/images/instagram.svg" alt="Instagram"></a>
+                <a href="https://wa.link/6hn11b" target="_blank" class="rede-social whatsapp"><img src="./assets/images/whatsapp.svg" alt="WhatsApp"></a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script>
+        const carrossel = document.querySelector('.carrossel');
+        const btnEsquerda = document.querySelector('.esquerda');
+        const btnDireita = document.querySelector('.direita');
+
+        let scrollInterval;
+
+        const startScroll = () => {
+            scrollInterval = setInterval(() => {
+                carrossel.scrollBy({ left: carrossel.offsetWidth / 5, behavior: 'smooth' });
+            }, 3000);
+        };
+
+        const stopScroll = () => {
+            clearInterval(scrollInterval);
+        };
+
+        btnEsquerda.addEventListener('click', () => {
+            carrossel.scrollBy({ left: -carrossel.offsetWidth / 5, behavior: 'smooth' });
+            stopScroll();
+            startScroll();
+        });
+
+        btnDireita.addEventListener('click', () => {
+            carrossel.scrollBy({ left: carrossel.offsetWidth / 5, behavior: 'smooth' });
+            stopScroll();
+            startScroll();
+        });
+
+        carrossel.addEventListener('mouseenter', stopScroll);
+        carrossel.addEventListener('mouseleave', startScroll);
+
+        // Inicia o movimento automático
+        startScroll();
+
+        const carrossel2 = document.querySelector('.carrossel2');
+        const btnEsquerda2 = document.querySelector('.esquerda2');
+        const btnDireita2 = document.querySelector('.direita2');
+
+        let scrollInterval2;
+
+        const startScroll2 = () => {
+            scrollInterval2 = setInterval(() => {
+                carrossel2.scrollBy({ left: carrossel2.offsetWidth / 5, behavior: 'smooth' });
+            }, 3000);
+        };
+
+        const stopScroll2 = () => {
+            clearInterval(scrollInterval2);
+        };
+
+        btnEsquerda2.addEventListener('click', () => {
+            carrossel2.scrollBy({ left: -carrossel2.offsetWidth / 5, behavior: 'smooth' });
+            stopScroll2();
+            startScroll2();
+        });
+
+        btnDireita2.addEventListener('click', () => {
+            carrossel2.scrollBy({ left: carrossel2.offsetWidth / 5, behavior: 'smooth' });
+            stopScroll2();
+            startScroll2();
+        });
+
+        carrossel2.addEventListener('mouseenter', stopScroll2);
+        carrossel2.addEventListener('mouseleave', startScroll2);
+
+        // Inicia o movimento automático
+        startScroll2();
+
+        function redirectToNewTab(url) {
+            window.open(url, '_blank');
+        }
+
+        const carrossel3 = document.querySelector('.carrossel3');
+        const btnEsquerda3 = document.querySelector('.esquerda3');
+        const btnDireita3 = document.querySelector('.direita3');
+
+        let scrollInterval3;
+
+        const startScroll3 = () => {
+            scrollInterval3 = setInterval(() => {
+                carrossel3.scrollBy({ left: carrossel3.offsetWidth / 5, behavior: 'smooth' });
+            }, 3000);
+        };
+
+        const stopScroll3 = () => {
+            clearInterval(scrollInterval3);
+        };
+
+        btnEsquerda3.addEventListener('click', () => {
+            carrossel3.scrollBy({ left: -carrossel3.offsetWidth / 5, behavior: 'smooth' });
+            stopScroll3();
+            startScroll3();
+        });
+
+        btnDireita3.addEventListener('click', () => {
+            carrossel3.scrollBy({ left: carrossel3.offsetWidth / 5, behavior: 'smooth' });
+            stopScroll3();
+            startScroll3();
+        });
+
+        carrossel3.addEventListener('mouseenter', stopScroll3);
+        carrossel3.addEventListener('mouseleave', startScroll3);
+
+        // Inicia o movimento automático
+        startScroll3();
+
+        const carrossel4 = document.querySelector('.carrossel4');
+        const btnEsquerda4 = document.querySelector('.esquerda4');
+        const btnDireita4 = document.querySelector('.direita4');
+
+        let scrollInterval4;
+
+        const startScroll4 = () => {
+            scrollInterval4 = setInterval(() => {
+                carrossel4.scrollBy({ left: carrossel4.offsetWidth / 5, behavior: 'smooth' });
+            }, 3000);
+        };
+
+        const stopScroll4 = () => {
+            clearInterval(scrollInterval4);
+        };
+
+        btnEsquerda4.addEventListener('click', () => {
+            carrossel4.scrollBy({ left: -carrossel4.offsetWidth / 5, behavior: 'smooth' });
+            stopScroll4();
+            startScroll4();
+        });
+
+        btnDireita4.addEventListener('click', () => {
+            carrossel4.scrollBy({ left: carrossel4.offsetWidth / 5, behavior: 'smooth' });
+            stopScroll4();
+            startScroll4();
+        });
+
+        carrossel4.addEventListener('mouseenter', stopScroll4);
+        carrossel4.addEventListener('mouseleave', startScroll4);
+
+        // Inicia o movimento automático
+        startScroll4();
+    </script>
+    
+</body>
+</html>
